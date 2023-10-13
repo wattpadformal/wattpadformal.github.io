@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Great+Vibes&family=Josefin+Sans:wght@200;300;400;500;600;700;800;900;1000&family=Mulish:wght@200;300;400;500;600;700;800;900;1000&family=Noto+Sans+Indic+Siyaq+Numbers&family=Outfit:wght@200;300;400;500;600;700;800;900;1000&family=Poppins&display=swap');
+body {
+  font-family: 'Outfit', Sans-Serif;
+  background-image: url('/assets/icon2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  scroll-behavior: smooth;
+}
+#canvas1 {
+  width: 100%;
+  min-height: 100vh;
+  position: fixed;
+  z-index: -1;
+}
+.navbar-brand {
+  font-size: 1.7rem;
+  font-weight: 700;
+}
+.offcanvas-title {
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+.navdrop:active {
+  background-color: #FFC800;
+  color: rgba(80, 80, 80, 1);
+  font-size: 1rem;
+}
+.nav-link {
+  font-size: 1rem;
+}
+.container {
+  gap: 2rem;
+}
+.gambar {
+  width: min(100%, 340px);
+  border-radius: 50%;
+  margin-top: 10rem;
+  border: .2rem solid #FFC800;
+  box-shadow: 0 0 10px rgba(255, 200, 0, .4);
+}
+.sub_gambar {
+  width: min(100%, 340px);
+  border-radius: 50%;
+}
+.judul {
+  font-size: 2.8rem;
+  color: #FFC800;
+  font-weight: 800;
+  text-shadow: 0 0 10px rgba(255, 200, 0, .4);
+}
+.subt {
+  font-size: 1.3rem;
+  color: #FFC800;
+  font-weight: 500;
+}
+.sub_judul {
+  font-size: 1rem;
+  color: white;
+  font-weight: 500;
+  margin-top: -10px;
+  font-family: Monospace;
+}
+.btn_ {
+  background-color: #FFC800;
+  text-align: center;
+  color: rgba(80, 80, 80, 1);
+  text-decoration: none;
+  font-size: 1.2rem;
+  padding: .6rem 2rem;
+  border-radius: 2.4rem;
+  margin-bottom: 8rem;
+}
+.fa-arrow-down {
+  font-size: 1rem;
+}
+.container-2 {
+  background-color: #FFC800;
+}
+.wrapper {
+  width: min(100%, 850px);
+  display: flex;
+  flex-direction: column;
+}
+.intro {
+  color: rgba(80, 80, 80, 1);
+  font-size: 2rem;
+  font-weight: 600;
+}
+.introp {
+  color: rgba(80, 80, 80, 1);
+  font-size: 1rem;
+}
+.container-3 {
+  background-color: #273036;
+}
+.svg-2 {
+  transform: translateY(1px);
+}
+.rule {
+  color: #FFC800;
+  font-size: 2rem;
+  font-weight: 600;
+}
+.rulep {
+  color: white;
+  font-size: 1rem;
+}
+.container-4 {
+  background-color: #FFC800;
+}
+.ruleitems {
+  color: white;
+  font-size: 1rem;
+}
+.ownerprofile {
+  width: 100%;
+  gap: 5rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.ownname {
+  font-size: 1rem;
+  font-weight: 700;
+  color: rgba(80, 80, 80, 1);
+}
+.detailown {
+  width: 100%;
+}
+.ownsos {
+  display: flex;
+  flex: wrap;
+  gap: 1.5rem;
+}
+.linkown {
+  font-size: 1.2rem;
+  color: rgba(80, 80, 80, 1);
+  text-decoration: none;
+}
+.ownimg {
+  width: min(100%, 340px);
+  border-top: 1px solid rgba(39, 48, 54, .9);
+  border-left: 1px solid rgba(39, 48, 54, .9);
+  box-shadow: 5px 5px 10px rgba(39, 48, 54, .5);
+}
+.listadmin {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+.sublistadm {
+  width: 100%;
+  background-color: rgba(39, 48, 54, .9);
+  border-radius: 10px;
+  border-top: 1px solid rgba(39, 48, 54, .9);
+  border-left: 1px solid rgba(39, 48, 54, .9);
+  box-shadow: 5px 5px 10px rgba(39, 48, 54, .5);
+}
+.imgadmin {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.nameadmin {
+  font-family: Arial;
+  font-size: 1.3rem;
+  color: #FFC800;
+}
+.jabatanadm {
+  font-size: 1rem;
+  color: white;
+  font-weight: 600;
+}
+.detailadm {
+  font-size: .8rem;
+  color: #eaeaea;
+  font-weight: 300;
+}
+.waadm {
+  font-size: .8rem;
+  color: #eaeaea;
+  font-weight: 500;
+  text-decoration: none;
+  width: 100%;
+  text-align: end;
+}
+.container-5 {
+  background-color: #273036;
+}
+.form-label {
+  color: #FFC800;
+  font-size: 1rem;
+}
+.form-control {
+  background-color: rgba(45, 55, 64, 1);
+  border: 1px solid #FFC800;
+  color: white;
+  font-size: 1rem;
+}
+.form-control:focus, .form-control:active {
+  background-color: rgba(255, 200, 0, .8);
+  box-shadow: 0 0 10px rgba(255, 200, 0, .5);
+  border: 1px solid #FFC800;
+}
+.submitny {
+  background-color: #FFC800;
+  color: rgba(45, 55, 64, 1);
+  border: none;
+  cursor: pointer;
+  padding: .2rem 1.5rem;
+}
+.btn-loading {
+  background-color: #FFC800;
+  color: rgba(45, 55, 64, 1);
+  border: none;
+  cursor: pointer;
+  padding: .2rem 1.5rem;
+}
+.btn-loading:active, .btn-loading:disabled {
+  background-color: #FFC800;
+  color: rgba(45, 55, 64, 1);
+  border: none;
+  cursor: pointer;
+  padding: .2rem 1.5rem;
+}
+.submitny:active, .submitny:focus {
+  background-color: #FFC800;
+  box-shadow: 0 0 10px rgba(255, 200, 0, .5);
+  border: none;
+  color: white;
+}
+.jadwal {
+  width: 100%;
+}
+.itemsjadwal {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+.card {
+  border: 1px solid #273036;
+  background-color: rgba(39, 48, 54, .9);
+}
+.card-header {
+  color: #FFC800;
+  background-color: #273036;
+  font-size: 1rem;
+  border-bottom: 1px solid #FFC800;
+}
+.ketj {
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.blockquote-footer {
+  color: #eaeaea;
+  font-size: .8rem;
+}
+.footer {
+  background-color: #273036;
+}
+.links {
+  font-size: 1rem;
+  color: white;
+  text-decoration: none;
+}
+@media (min-width: 950px) {
+  .ownerprofile {
+    width: 100%;
+    gap: 5rem;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
