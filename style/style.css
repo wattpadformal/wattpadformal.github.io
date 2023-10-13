@@ -126,6 +126,13 @@ body {
   font-weight: 700;
   color: rgba(80, 80, 80, 1);
 }
+.hks {
+  font-size: 1rem;
+  font-weight: 700;
+  color: rgba(80, 80, 80, 1);
+  width: 100%;
+  text-align: center;
+}
 .detailown {
   width: 100%;
 }
