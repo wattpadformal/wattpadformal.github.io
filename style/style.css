@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Great+Vibes&family=Josefin+Sans:wght@200;300;400;500;600;700;800;900;1000&family=Mulish:wght@200;300;400;500;600;700;800;900;1000&family=Noto+Sans+Indic+Siyaq+Numbers&family=Outfit:wght@200;300;400;500;600;700;800;900;1000&family=Poppins&display=swap');
+html {
+  scroll-behavior: smooth;
+}
 body {
   font-family: 'Outfit', Sans-Serif;
   background-image: url('../assets/icon2.jpg');
@@ -6,7 +9,6 @@ body {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  scroll-behavior: smooth;
 }
 #canvas1 {
   width: 100%;
